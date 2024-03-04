@@ -1,0 +1,37 @@
+.connect-container {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    width: 600px;
+}
+
+.connect-container input {
+    border: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 16px;
+    width: 260px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.connect-container textarea {
+    border: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 60px;
+}
+
+.connect-container input::after {
+    content: "...";
+    border: 20px solid black;
+}
+
+::placeholder {
+    color: black;
+}

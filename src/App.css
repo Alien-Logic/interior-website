@@ -1,0 +1,89 @@
+:root {
+    --light-background: #F4F0EC;
+    --primary: #292F36; 
+    --background:  #CDA274;
+
+}
+
+body {
+    width: 100%;
+    background-color: white;
+}
+
+.h1 {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.h2 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 62px;
+}
+
+.h3 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.h4 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.h5 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.h6 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.btn {
+    background-color: var(--primary);
+    padding: 16px 16px;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.primary-btn {
+    background-color: var(--background);
+    padding: 16px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    width: 180px;
+    display: flex;
+    gap: 10px;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+}
+
+.text {
+    font-size: 20px;
+}

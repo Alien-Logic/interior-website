@@ -1,0 +1,31 @@
+.container {
+    margin: 10px 8em;
+    padding: 4em 0;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 80px;
+}
+
+.feature {
+    text-align: center;
+    max-width: 16em;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.feature:hover {
+    background-color: var(--light-background);
+}
+
+.feature .link {
+    color: var(--primary);
+}
+
+.icon img {
+    margin-bottom: -3px;
+    margin-left: 8px;
+}

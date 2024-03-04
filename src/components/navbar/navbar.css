@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 8em;
+}
+
+.logo-img {
+   margin: 0 10px;
+}
+
+.menu {
+    display: flex;
+    gap:40px;
+    list-style: none;
+}
+
+.menu li {
+    cursor: pointer;
+}

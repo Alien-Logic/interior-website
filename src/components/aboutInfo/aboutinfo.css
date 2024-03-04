@@ -1,0 +1,29 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.about-info .h2 {
+    margin-bottom: -10px;
+}
+
+.image img {
+    width: 580px;
+}
+
+.item {
+    width: 420px;
+}
+
+.ar img {
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+}

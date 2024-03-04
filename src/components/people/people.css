@@ -1,0 +1,34 @@
+.people-container {
+    background-color: var(--light-background);
+    text-align: center;
+    padding: 40px;
+}
+
+.people {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.info {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.people .social-icons {
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.place {
+    margin-top: -10px;
+}
+
+.email {
+    margin-top: -10px;
+}

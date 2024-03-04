@@ -1,0 +1,35 @@
+.reviews-container {
+    background-color: #F4F0EC;
+    border-radius: 100px;
+    padding: 40px;
+}
+
+.headline {
+    width: 700px;
+    text-align: center;
+}
+
+.reviews {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.review {
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.profile-align {
+    display: flex;
+    gap: 20px;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+}
