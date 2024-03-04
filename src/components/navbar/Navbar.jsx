@@ -16,8 +16,8 @@ const Navbar = () => {
             <li className='h5'><Link className='link' to="/">Home</Link></li>
             <li className='h5'><Link className='link' to="/about"> About Us </Link></li>
             <li className='h5'><Link className='link' to="/services">Services</Link></li>
-            <li className='h5'><Link className='link' to= "/ContactLink">Contact</Link></li>
-            <li className='h5'>Project</li>
+            <li className='h5'><Link className='link' to= "/contact">Contact</Link></li>
+            <li className='h5'>Projects</li>
             <li className='h5'>Blog</li>
             
             <li><span><img src='/search.svg' alt='serach icon' /></span></li>
