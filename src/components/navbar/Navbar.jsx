@@ -14,11 +14,12 @@ const Navbar = () => {
 
         <ul className='menu'>
             <li className='h5'><Link className='link' to="/">Home</Link></li>
-            <li className='h5'>Pages</li>
+            <li className='h5'><Link className='link' to="/about"> About Us </Link></li>
             <li className='h5'><Link className='link' to="/services">Services</Link></li>
+            <li className='h5'><Link className='link' to= "/ContactLink">Contact</Link></li>
             <li className='h5'>Project</li>
             <li className='h5'>Blog</li>
-            <li className='h5'>Contact</li>
+            
             <li><span><img src='/search.svg' alt='serach icon' /></span></li>
         </ul>
       </div>
@@ -26,4 +27,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;
